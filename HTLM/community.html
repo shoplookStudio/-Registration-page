@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="robots" content="index">
+    <meta name="author" content="Shoplook_Platform">
+    <meta name="description" content="Shoplool-book is a web page destined to tourist reservations">
+    <meta name="keywords" content="travel, booking, reserve">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+    <title>Shoplool-booking-Home</title>
+     <!----------- Bootstrap style ------------>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!----------- fontawesome Font ------------>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-----------CSS style ------------>
+    <link rel="stylesheet" href="/CSS/community_style.css">
+    <link rel="stylesheet" href="/CSS/style_startpage.css">
+</head>
+<body>
+    <div class="container-fluid ">
+         <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                  <a class="navbar-brand" href="index.html"><img src="/IMG/img_home/logo.jpg" width="60" class=" rounded d-inline-block align-top" alt="Logo P2P"> APARTMENTS P2P </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>            
+              <div class="collapse navbar-collapse text-center " id="navbarSupportedContent">
+                    <!--ESE ANClA NO DEVERIA IR DENTO DEL UL------------------>
+                  <ul class="navbar-nav mr-auto ml-auto">
+                        <a class="navbar-brand" href="indext.html">HOME</a>
+                        <li class="nav-item">
+                        <a class="nav-link" href="/HTLM/community.html">COMMUNITY <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          SERVICES
+                          </a>
+                          <!------Dropdawn Menu------>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">HAUS</a>
+                              <a class="dropdown-item" href="#">APARTMENTS</a>
+                              <a class="dropdown-item" href="#">BEDROOMS</a>
+                              <a class="dropdown-item" href="#">VILLAS</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">MORE SERVIVES</a>
+                          </div>  
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">CONTACTS</a>
+                      </li>
+                  </ul>   
+                 <!------first Social Media Buttons------->
+                    <div>
+                        <a class="btn btn-primary mr-3" href="https://www.facebook.com/"> <i class=" fab fa-facebook"></i></a>
+                        <a class="btn btn-success mr-3" href="$"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-danger" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+          </nav>
+
+<!-- video container -->
+        
+           <div class="showcase">
+               <div class="video_container">
+                   <video src="/IMG/img_home/rd-video.mp4" autoplay muted loop></video>
+               </div>
+               <div class="video_content">
+                   <h1>Discover you favote community</h1>
+                   <h4>Full screen Video landing page</h4>
+                   <a href="" class="btn_video">Read More</a>
+               </div>
+           </div>
+
+           <div id="about">
+                <span class="span1">About</span>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex eum eos excepturi nulla provident earum sint.
+                </p>
+                <span>Fallow on Social Media</span>
+                <div class="social">
+                    <a class="btn btn-primary mr-3" href="https://www.facebook.com/"> <i class=" fab fa-facebook"></i></a>
+                    <a class="btn btn-success mr-3" href="$"><i class="fab fa-whatsapp"></i></a>
+                    <a class="btn btn-danger" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-success" href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+           </div>
+
+<!--------- Footer ------>
+      <div class="foother">
+          <div class="footer_content">
+            <span>Blog</span>
+            <a href="">Last News</a>
+            <a href="">Future News</a>
+            <a href=""> IT Newa</a>
+            <a href="">More</a>
+        </div>
+
+<!------- Revicive Newsletter Form ------->
+        <div class="footer_content">
+          <span>Revicive Newsletter</span>
+            <form action="registrar.php" method="POST" class="form-register"  onsubmit="returnValidar();">
+              <div class="contenedor-inputs">
+                <input type="text" id="nombre" name="name" placeholder="Nombre *" class="input-50" title="Solo se aceptan letras y espacios en blancos" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" requiered>
+                <input type="text" id="apellido" name="lastname" placeholder="Apellido *" class="input-50" title="Solo se aceptan letras y espacios en blancos" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" requiered>
+                <input type="email" id="email" name="email" placeholder="Email *" class="input-100" title="Escribe tu email" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" requiered>
+                <input type="submit" value="Submit" class="btn-enviar"> 
+              </div>
+          </form>   
+        </div>
+
+          <div class="footer_content">
+              <span>Comunity</span>
+              <a href="">Backpacker</a>
+              <a href="">Luxuries</a>
+              <a href="">Influencer</a>
+              <a href="">Mountaineers</a>
+          </div>
+
+          <div class="footer_content">
+              <span>Social Networks</span>
+              <a href="https://www.facebook.com/"> <i class=" fab fa-facebook"></i></a>
+              <a href="$"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+
+      </div> 
+
+<!------ Second footer ----->
+          <div class="footer_2">
+              <span>copy © right 200. All rights reserved</span>
+              <span>Made by Soplook_Plaform</span>
+              <a href="">Privacy Policy</a>
+              <a href="">Cookie Statement</a>
+              <a href="">About Shoplook_Platform</a>
+          </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
