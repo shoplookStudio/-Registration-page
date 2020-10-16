@@ -1,0 +1,378 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head-1{
+    width: 100%;
+    background-image: url("/IMG/img_home/background_img_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;  
+}
+
+/*----- LOGIGN FORM----- */
+ 
+.bg-img{
+    height: 80vh;
+    margin: 30px;
+}
+
+.content{
+    position: absolute;
+    top:20px;
+    left: 30%;
+    text-align: center;
+    z-index: 999;
+    height: 450px; 
+    width: 320px;
+    margin-top: 30px;
+    padding: 10px 30px; 
+    background: rgba(255, 255, 255, 0.212); 
+    box-shadow: 1px 1px 20px 2px white; 
+}
+
+.content header{
+    color: white;
+    font-size: 33px;
+    font-weight: 400;
+    margin: 0 0 35px 0;
+}
+
+.field{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background: rgba(255, 255, 255, 0.94);
+    border-radius: 15px;
+}
+
+.field span{
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+}
+
+span.fa-user {
+    color: green;
+}
+
+span.fa-lock {
+    color: rgb(15, 12, 150);
+}
+
+.field input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    border-radius: 15px;
+}
+
+.show{
+    position: relative;
+    right: 13px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+    cursor: pointer;
+}
+
+.password:valid ~ .show{
+    display: block;
+}
+
+.space{
+    margin-top: 15px;
+}
+
+.pass{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.pass a{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+
+.pass:hover a{
+    text-decoration: underline;
+
+}
+input[type="submit"]{
+    background: #2691d9;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background: #274355;
+    transition: all 0.25s;
+}
+
+.loging{
+    color: white;
+    margin: 20px;
+}
+
+.link{
+    display: flex;
+    cursor: pointer;
+    color: white;
+    margin: 0 0 20px 0;
+}
+
+/* social media head */
+
+.facebook, .instagram {
+    width: 100%; 
+    height: 30px; 
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.facebook{
+    margin-left: 5px;
+    background: #4267b2;
+    border:  1px solid #3e61a8;
+}
+
+.instagram{
+    background: #e62a2a;
+    border:  1px solid #df2060;
+}
+
+.link span{
+    font-size: 5px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.signup{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.signup a{
+    color: #000000;
+    text-decoration: none;
+}
+.signup a:hover{
+    text-decoration: underline;
+    color: blue;
+} 
+
+/* ------Search Erea------- */
+
+.search-2{
+ display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 30px 30px;
+}
+
+/*------- The Cards------- */
+
+.card_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 50px 0;
+} 
+
+.card {
+    width: 23.5%;
+    box-shadow: 0 4px 8px 0;
+    text-align: center;  
+    transition: all 0.25s;
+}
+
+.card:hover {
+    transform: translate(0, -20px);
+}
+
+.card_content {
+    margin-top: 20px;
+    margin: 20px 10px 0;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card_container a {
+    background: rgb(243, 225, 125);
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+ }
+
+.card_container a:hover {
+    background: rgb(180, 163, 62);
+    color: white;
+    transition: 0,7s;
+    opacity: 0.5;
+}
+
+.background_1 {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-image: url("/IMG/img_home/background_img_2.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background_1 h2 {
+    width: 80%;
+    margin: auto;
+    padding: 15px 0;
+    font-size: 2.5rem;
+    background: rgba(0, 0, 0, 0.589);
+    box-shadow: 1px 2px 8px 0 white;
+    text-align: center;
+    z-index: 999;
+}
+
+.overlay {
+    background: #351d1f86;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.background_2 {
+    background-image: url("/IMG/img_home/background_img_3.jpg");
+}
+
+.background_1 h3 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.589);
+    padding: 15px;
+    box-shadow: 1px 2px 8px 0 white;
+    font-size: 2.5rem;
+    z-index: 999;
+}
+
+.foother {
+    width: 100%;
+    height: 300px;
+    background: rgb(53, 38, 38);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_content {
+    height: 90%;
+    width: 23%;
+    background: rgba(255, 255, 255, 0.212);
+    box-shadow: 1px 2px 8px 0 rgb(248, 246, 246);
+    color: white;
+    text-align: center ;
+    margin: 50px 0 50px ;
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+
+.footer_content a {
+    display: block;
+    padding: 8px;
+}
+
+.footer_content a .fab {
+    font-size: 3rem;
+    color: white;
+}
+
+.footer_content a .fab:hover {
+    background: rgba(119, 143, 189, 0.377);
+    padding: 10px;
+    font-size: 3.5rem;
+    border-radius: 50%;
+    transition: all 0.25s;
+    transform: translate(0, -20px);
+}
+
+.footer_2 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(17, 13, 13);
+} 
+
+.footer_2 span {
+    color: white;
+    font-size: 12px;
+}
+
+/*-----Revicive Newsletter Form---- */
+
+.form-register{
+    width: 98%;
+    border-radius: 7px;
+}
+
+.contenedor-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+
+
+.btn-enviar{
+    background: rgb(18, 175, 12);
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.btn-enviar:active{
+    transform: scale(1.05);
+}
+
+.form-link{
+    width: 100%;
+    margin: 7px;
+    font-size: 14px;
+    text-align: center;
+} 
+
+
+
