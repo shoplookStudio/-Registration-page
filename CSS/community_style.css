@@ -10,14 +10,14 @@
     box-sizing: border-box;
 }
 
-bodu {
+body {
     font-family: "open sans", sans-serif;
     line-height: 1.5;
 }
 
 a {
     text-decoration: none;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
 }
 
 h1 {
@@ -90,26 +90,96 @@ h1 {
     transform: scale(0.98);
 }
 #about {
-    padding: 40px;
+    padding: 100px;
     text-align: center;
-    margin: auto;
+    margin: 10px auto;
+    background-image: url(/IMG/img_community/community_bg.jpg);
+    background-attachment: fixed;background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 #about p {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     max-width: 600px;
     margin: auto;
+    color: rgb(35, 235, 35);
 }
 
 #about .span1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 30px 0;
-    color: var(--primary-color);
+    color: white;
+}
+
+.span2 {
+    font-size: 1.5rem;
+    color: rgb(10, 10, 10);
 }
 
 .social a {
     margin: 0 5px;
 }
 
+/* page body */
 
+.community_container {
+    height:100vh;
+    width: 100%;
+    display: flex; 
+    justify-content: space-around;
+    padding: 30px 20px;
+}
+
+.community_container img {
+    width: 90%;
+    height: 100%;
+}
+
+div .paragrph {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.community_p {
+    width: 100%;
+    height: 45%;
+    padding: 40px 20px 0 20px; 
+    font-size: 1.3rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h2, h3 {
+    font-size: 1.9rem;
+}
+
+.p1 {
+    background: rgb(48, 226, 48);
+}
+
+.p2 {
+    background: rgba(226, 30, 89, 0.959);
+    color: white;
+    margin-top: 20px;
+}
+
+.container-fluid {
+  margin-bottom: 30px;
+}
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+div.background_1 {
+    background-image: url(/IMG/img_community/track_community.jpg);
+    margin-bottom: 30px;
+}
 

@@ -132,7 +132,7 @@ input[type="submit"]:hover{
     margin: 0 0 20px 0;
 }
 
-/* social media head */
+/* social media loging*/
 
 .facebook, .instagram {
     width: 100%; 
@@ -183,6 +183,7 @@ input[type="submit"]:hover{
   justify-content: flex-end;
   align-items: flex-end;
   margin: 30px 30px;
+  
 }
 
 /*------- The Cards------- */
@@ -228,7 +229,9 @@ input[type="submit"]:hover{
 .card_container a:hover {
     background: rgb(180, 163, 62);
     color: white;
+    border:2px solid rgb(180, 163, 62);
     transition: 0,7s;
+    transform: scale(0.98);
     opacity: 0.5;
 }
 
@@ -335,7 +338,7 @@ input[type="submit"]:hover{
 /*-----Revicive Newsletter Form---- */
 
 .form-register{
-    width: 98%;
+    width: 100%;
     border-radius: 7px;
 }
 
@@ -343,7 +346,7 @@ input[type="submit"]:hover{
     padding: 10px 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 input{
