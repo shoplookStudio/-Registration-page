@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.form_container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 50px 0;
+     padding: 50px 0;
+}
+
+.head_form {
+    font-size: 2rem;
+    color: white;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.596);
+    padding: 30px;
+}
+
+  
+.contact-form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;  
+}
+
+  
+.contact-form > *{
+    padding: 0.5rem;
+    margin: 1rem auto;
+    display: block;
+    width: 100%;
+}
+  
+.contact-form textarea{
+    resize: none;    
+}
+  
+.contact-form legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.contact-form input,
+.contact-form textarea{
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+  
+.contact-form input[type="submit"] {
+   width: 50%;
+   font-weight: bold;
+   cursor: pointer;  
+   background: rgba(0, 0, 0, 0.596); 
+   border: 2px solid black; 
+}
+
+.contact-form input[type="submit"]:hover {
+    background: rgb(4, 168, 4);
+    transform: scale(0.98);
+    transition: 0.25s;
+}
+
+  
+.contact-form *::placeholder{
+    color: black;
+}
+  
+.contact-form [required]:valid{
+    border: thin solid va (--form-ok-color);
+}
+  
+.contact-form [required]:invalid{
+    border: thin solid va  (--form-error-color);
+}
+  
+.contact-form-error{
+    margin-top: -1rem;
+    font-size: 80%;
+    background: var(--form-error-color);
+    transition: all 890ms ease;
+}
+  
+.contact-form-error-active{
+    display: block;
+    animation: show-message 1s normal 0s ease-out both;
+}
+  
+.none{
+   display: none; 
+}
+  
+@keyframes show-message{
+    0% {
+    visibility: hidden;
+    opacity: 0;
+}
+  
+    100%{
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  
+.contact-form-louder img{
+    width: 70px;
+    height: 70px;
+}
+   
