@@ -1,0 +1,7 @@
+.card {
+    width: 30%;
+    margin: 100px 0;
+    box-shadow: 0 4px 8px 0;
+    text-align: center;  
+    transition: all 0.25s;
+}
