@@ -1,0 +1,50 @@
+.bg-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: var(--primary-color) url("/IMG/img_aboutUs/header_photo.jpg") fixed no-repeat center center/cover;
+} 
+
+.video_content {
+    background: rgba(0, 0, 0, 0.445);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+
+div.background_1 {
+    height: auto;
+    background-image: url(/IMG/img_aboutUs/bg_photo.jpg);
+    margin-bottom: 30px;
+    padding: 200px 0;
+} 
+
+.profile {
+    margin: 15px;
+    
+    box-shadow: 1px 2px 8px 0 black;
+    text-align: center;
+}
+
+.profile img {
+    width: 100%;
+}
+
+.profile div  {
+    padding: 10px;
+    background: black;
+    color: white;
+}
+
+.profile span {
+    font-size: 1.7rem;
+    
+}
+
+.profile p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
