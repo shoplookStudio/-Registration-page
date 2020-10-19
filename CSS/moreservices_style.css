@@ -1,0 +1,33 @@
+.card_container {
+    padding-top: 50px;
+}
+.card img {
+    border-radius: 50%;
+}
+
+div.background_1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column wrap;
+}
+
+.background_1 a {
+    display: block;
+    color: white;
+    font-size: 1.7rem;
+    margin: 10px;
+}
+
+.services {
+    width: 18%;
+    margin: 10px;
+    z-index: 999;
+}
+
+.services img {
+    border-radius: 50%;  
+}
+
+div h2 {
+    width: 95%;
+}
