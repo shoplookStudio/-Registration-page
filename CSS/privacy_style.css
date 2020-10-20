@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.publicy {
+    width: 90%;
+    padding: 80px 30px;
+    margin: auto;
+}
+
+.publicy span { 
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 500;
+}
